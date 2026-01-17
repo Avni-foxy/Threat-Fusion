@@ -1,0 +1,6 @@
+{
+    "event_type": "vulnerability_scan",
+    "risk_level": "LOW",
+    "threat_indicators_found": 0,
+    "raw_summary": "[{'port': 22, 'name': 'ssh', 'product': 'OpenSSH', 'version': '6.6.1p1 Ubuntu 2ubuntu2.13', 'state': 'open'}, {'port': 80, 'name': 'http', 'product': 'Apache httpd', 'version': '2.4.7', 'state': 'open'}, {'port': 9929, 'name': 'nping-echo', 'product': 'Nping echo', 'version': '', 'state': 'open'}, {'port': 31337, 'name': 'tcpwrapped', 'product': '', 'version': '', 'state': 'open'}]Nikto scan failed: Command '['nikto', '-h', 'scanme.nmap.org', '-Tuning', '123', '-Display', '1']' timed out after 3"
+}
